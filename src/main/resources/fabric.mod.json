@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "minecraft-mod-i9-23g-leica",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "leica",
+	"description": "This is my first mod ^3^",
 	"authors": [
 		"Me!"
 	],
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/minecraft-mod-i9-23g-leica/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

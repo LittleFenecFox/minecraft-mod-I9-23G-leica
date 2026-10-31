@@ -1,9 +1,22 @@
-# Example Mod
+# minecraft-mod-I9-23G-123
 
-## Setup
+Инструментальные средства разработки группа И9-23Г. Номер команды - 123.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+### Название команды: Один в поле - воин
 
-## License
+Перечень участников: Шелиховская
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Цель: создать рабочий законченный мод
+
+### Структура проекта:
+
+Назначения
+
+src/main/java - нахождение пакета с исходным кодом и точки входа
+src/main/resources - нахождение конфигурационного файла проекта
+
+
+
+Название добавляемого инструмента - leica
+
+Назначение добавляемого инструмента - полив блока земли
