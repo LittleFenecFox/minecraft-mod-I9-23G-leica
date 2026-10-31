@@ -18,7 +18,7 @@ public class ModItems {
 
     public static void register() {
         // 2. регистрация предмета
-        Registry.register(Registries.ITEM, new Identifier("minecraft-mod-i9-23g-leica", "watering_can"), WATERING_CAN);
+        Registry.register(Registries.ITEM, new Identifier("leica-mod", "watering_can"), WATERING_CAN);
 
         // 3. добавление в инвентарь в креативе
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> entries.add(WATERING_CAN));
