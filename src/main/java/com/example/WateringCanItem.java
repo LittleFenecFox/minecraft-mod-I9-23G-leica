@@ -47,11 +47,6 @@ public class WateringCanItem extends Item {
             // 3. Эффект: меняем влажность на максимум
             world.setBlockState(pos, world.getBlockState(pos).with(FarmlandBlock.MOISTURE, 7));
 
-            PlayerEntity player = context.getPlayer();
-            if (player != null) {
-                // Важно: в 1.20.1 используется Text.literal(), а не new LiteralText()
-                player.sendMessage(Text.literal("Грядка полита! (Тестовое сообщение)"), false);
-            }
 
 
             // Возвращаем SUCCESS, чтобы игра поняла, что действие выполнено
